@@ -1,0 +1,41 @@
+.app{
+	.app-container{
+		// width: 95vw;
+		max-width: 1700px;
+		height: fit-content;
+		padding: 0 15px;
+		margin: 0 auto;
+
+		@media (min-height: 900px) {
+			padding: 0 30px;	
+		}
+
+		// .greetings{
+		// 	max-width: inherit;
+		// 	margin: 80px auto 0;
+		// 	font-family: 'Montserrat', sans-serif;
+		// 		font-weight: 700;
+		// }
+		// @media (max-width) {
+			
+
+		// }
+	}
+	// @media (max-width:1200px) {
+	// 	.app-container{
+	// 		padding:  0 40px;
+	// 	}
+	// }
+	// @media (max-width:900px) {
+	// 	.app-container{
+	// 		padding:  0 30px;
+	// 	}
+	// }
+	// @media (max-width:600px) {
+	// 	.app-container{
+	// 		padding:  0 20px;
+	// 	}
+	// }
+}
+
+

@@ -1,0 +1,9 @@
+.introduction .introduction__image {
+  max-height: 800px;
+}
+.introduction .introduction__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Introduction.css.map */

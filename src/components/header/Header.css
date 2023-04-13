@@ -1,0 +1,79 @@
+.nav {
+  width: 100vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+.nav ul .logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav ul .logo a svg {
+  margin: 0 10px;
+}
+.nav ul li a {
+  height: 40px;
+  color: white;
+  transition: all 0.2s;
+  font-weight: 300;
+  position: relative;
+}
+.nav ul li a:hover {
+  color: rgb(146, 144, 144);
+}
+.nav svg {
+  color: white;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+  font-weight: 300;
+}
+.nav svg:hover {
+  opacity: 0.5;
+}
+.nav svg:not(:first-child) {
+  display: none;
+}
+@media (max-width: 900px) {
+  .nav .logo {
+    display: flex;
+  }
+  .nav .logo svg:first-child {
+    display: inline-block;
+  }
+  .nav .ul-first {
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+  .nav .ul-first li:not(:first-child) {
+    display: none;
+  }
+  .nav svg,
+  .nav svg:not(:first-child) {
+    display: inline-block;
+  }
+}
+.nav .ul-second {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (min-width: 1200px) {
+  .nav .ul-second {
+    display: none;
+  }
+}/*# sourceMappingURL=Header.css.map */
