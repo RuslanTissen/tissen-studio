@@ -2,6 +2,7 @@ import './App.scss';
 import Header from './components/header/Header.jsx';
 import Footer from './components/footer/Footer';
 import Introduction from './components/introduction/Introduction';
+import Idea from './components/idea/idea';
 // import wa from "./images/WhatsAppButtonGreenMedium.png"
 // import { BsWhatsapp } from "react-icons/bs"
 
@@ -17,7 +18,7 @@ function App() {
 
 				<Introduction />
 
-
+				<Idea />
 
 			</div>
 
