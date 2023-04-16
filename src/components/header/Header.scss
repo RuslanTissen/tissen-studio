@@ -8,7 +8,7 @@
 	.nav-container{
 		max-width: 1670px;
 		margin: 0 auto;	
-		padding: 0 20px 0 20px;
+		padding: 0 15px 0 15px;
 		ul{
 			display: flex;
 			align-items: center;
@@ -63,7 +63,7 @@
 			}
 			.ul-first{
 				justify-content: space-between;
-				padding: 0 25px;
+				// padding: 0 25px;
 			}
 			.ul-first li:not(:first-child){
 				display: none;
