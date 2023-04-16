@@ -1,0 +1,30 @@
+.templates {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+.templates .templates__text--box {
+  flex: 1 0 100%;
+  padding: 32px 0 10px;
+  height: 30%;
+}
+.templates .templates__text--box h2 {
+  margin-bottom: 5px;
+}
+.templates .templates__text--box h2 mark {
+  color: rgb(5, 87, 165);
+  background-color: transparent;
+}
+.templates .templates__text--box p {
+  font-weight: 300;
+}
+.templates .templates__carousel--box {
+  flex: 0 1 100%;
+  height: 70%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=Templates.css.map */

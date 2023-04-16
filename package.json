@@ -13,6 +13,7 @@
 		"react-anchor-link-smooth-scroll-v2": "^2.0.1",
 		"react-dom": "^18.2.0",
 		"react-icons": "^4.7.1",
+		"react-image-gallery": "^1.2.11",
 		"react-lorem-ipsum": "^1.4.10",
 		"react-responsive-carousel": "^3.2.23",
 		"react-scripts": "5.0.1",

@@ -9,7 +9,7 @@
 }
 .introduction h1 mark {
   background-color: transparent;
-  color: #4b4c93;
+  color: rgb(5, 87, 165);
 }
 .introduction .introduction__container .introduction__image {
   max-height: 500px;
