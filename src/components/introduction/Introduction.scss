@@ -10,6 +10,7 @@
 		}
 	}
 	.introduction__container{
+		background-color: #b8b6b7;
 		.introduction__image{
 			max-height: 500px;
 			object-fit: contain;
@@ -22,7 +23,6 @@
 		}
 		.introduction__text{
 			max-height: 250px;
-			background-color: #b8b6b7;
 			display: flex;
 			justify-content: center;
 			align-items: center;

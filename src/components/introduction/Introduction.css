@@ -11,6 +11,9 @@
   background-color: transparent;
   color: rgb(5, 87, 165);
 }
+.introduction .introduction__container {
+  background-color: #b8b6b7;
+}
 .introduction .introduction__container .introduction__image {
   max-height: 500px;
   -o-object-fit: contain;
@@ -25,7 +28,6 @@
 }
 .introduction .introduction__container .introduction__text {
   max-height: 250px;
-  background-color: #b8b6b7;
   display: flex;
   justify-content: center;
   align-items: center;

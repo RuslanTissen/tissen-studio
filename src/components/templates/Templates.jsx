@@ -17,7 +17,7 @@ function Templates() {
 	return (
 		<div className='templates'>
 			<div className="templates__text--box">
-				<h2>Choose your style.</h2>
+				<h1>Choose your style.</h1>
 				<p>If standard model is not for you, we help you to find your unique style. Look on this carousel.</p>
 			</div>
 

@@ -8,15 +8,15 @@
   z-index: 100;
 }
 .nav .nav-container {
-  max-width: 1700px;
+  max-width: 1670px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px 0 20px;
 }
 .nav .nav-container ul {
   display: flex;
   align-items: center;
   list-style-type: none;
-  justify-content: space-around;
+  justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
   color: white;
