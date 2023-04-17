@@ -8,7 +8,7 @@ import img5 from "../../images/idea-5.jpg"
 
 function Idea() {
 	return (
-		<div className='idea'>
+		<div className='idea' id='idea'>
 			<div className="idea__text--container">
 				<h1>Design and comfort.</h1>
 				<p>Website design is one of the most valuable tools for user experience. A clear and strict navigation structure plus a harmonious design can greatly enhance the usability of your website.</p>

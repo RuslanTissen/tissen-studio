@@ -15,7 +15,7 @@ import temp9 from "../../images/crsl9.jpg"
 
 function Templates() {
 	return (
-		<div className='templates'>
+		<div className='templates' id="templates">
 			<div className="templates__text--box">
 				<h1>Choose your style.</h1>
 				<p>If standard model is not for you, we help you to find your unique style. Look on this carousel.</p>

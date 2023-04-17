@@ -14,7 +14,7 @@ export default function Footer() {
 			<div className="footer-links">
 				{/* <a href="#nav"><img src={liya} alt="" /></a> */}
 				{/* <AnchorLink href="#foto"><img src={liya} alt="liya" /></AnchorLink> */}
-				<a href="https://www.instagram.com/pipitosti/"><BsInstagram /></a>
+				<a href="#"><BsInstagram /></a>
 				<a href='#'><GrFacebookOption /></a>
 				<a href='#'><BsTwitter /></a>
 				<a href="#"><FaLinkedinIn /></a>
