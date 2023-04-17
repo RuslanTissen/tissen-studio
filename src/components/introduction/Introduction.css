@@ -4,12 +4,19 @@
   font-family: "Montserrat", sans-serif;
   padding: 40px 0 0;
 }
-.introduction h1 {
-  margin: 30px 0 20px;
+.introduction .introduction__text--container {
+  flex: 1 1 100%;
+  padding: 30px 0 30px;
 }
-.introduction h1 mark {
+.introduction .introduction__text--container h1 {
+  margin: 30px 0 5px;
+}
+.introduction .introduction__text--container h1 mark {
   background-color: transparent;
   color: rgb(5, 87, 165);
+}
+.introduction .introduction__text--container p {
+  font-weight: 300;
 }
 .introduction .introduction__container {
   background-color: #b8b6b7;
