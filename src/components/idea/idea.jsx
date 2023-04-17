@@ -18,7 +18,7 @@ function Idea() {
 					<div className="text__box--h1"><h1>You have an idea!</h1></div>
 					<div className="text__box--p">
 						<h3>Next steps:</h3>
-						<p>Lets start from idea to final project. There are 5 steps: first meeting, web designer work, coding process, second meeting and deploy after corrections. Here we are!</p>
+						<p>Lets start from an idea to a final project. There are 5 steps: first meeting, web designer work, coding process, second meeting and deploy after corrections. Here we are!</p>
 					</div>
 				</div>
 

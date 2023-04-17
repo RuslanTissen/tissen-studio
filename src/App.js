@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer';
 import Introduction from './components/introduction/Introduction';
 import Idea from './components/idea/idea';
 import Templates from './components/templates/Templates';
+import Plan from './components/plan/Plan';
 // import wa from "./images/WhatsAppButtonGreenMedium.png"
 // import { BsWhatsapp } from "react-icons/bs"
 
@@ -18,11 +19,12 @@ function App() {
 			<div className='app-container'>
 
 				<Introduction />
-				
+
 				<Templates />
 
 				<Idea />
 
+				<Plan />
 
 			</div>
 
