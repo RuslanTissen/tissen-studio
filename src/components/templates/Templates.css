@@ -27,4 +27,7 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.templates .templates__carousel--box .carousel-status {
+  display: none;
 }/*# sourceMappingURL=Templates.css.map */

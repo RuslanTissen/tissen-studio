@@ -24,6 +24,7 @@
   flex: 1 1 100%;
   height: 600px;
   background-color: #b8b6b7;
+  overflow-y: hidden;
 }
 .idea .idea__images--container .box-img .image-idea {
   width: 100%;

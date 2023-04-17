@@ -17,7 +17,7 @@ function Idea() {
 				<div className="box--img1 box-img">
 					<div className="text__box--h1"><h1>You have an idea!</h1></div>
 					<div className="text__box--p">
-						<h3>Next steps</h3>
+						<h3>Next steps:</h3>
 						<p>Lets start from idea to final project. There are 5 steps: first meeting, web designer work, coding process, second meeting and deploy after corrections. Here we are!</p>
 					</div>
 				</div>
@@ -26,39 +26,40 @@ function Idea() {
 					<img src={img1} alt="" className="image1 image-idea" />
 					<div className="box-img__box">
 						<h3>First meeting</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui commodi veritatis repellendus asperiores quisquam! Quibusdam nobis maxime, est at quam voluptate eum provident. Soluta quia optio placeat accusamus impedit fugit!						</p>
+						<p>A project kick-off meeting is the first meeting with the project team and the client of the project. This meeting is the time to establish common goals and the purpose of the project.						</p>
 					</div>
 				</div>
 
 				<div className="box--img3 box-img">
 					<img src={img2} alt="" className="image2 image-idea" />
 					<div className="box-img__box">
-						<h3>First meeting</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui commodi veritatis repellendus asperiores quisquam! Quibusdam nobis maxime, est at quam voluptate eum provident. Soluta quia optio placeat accusamus impedit fugit!						</p>
+						<h3>Web design work</h3>
+						<p>Web designer plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips. A web designer is responsible for creating the design and layout of a website or web pages. It and can mean working on a brand new website or updating an already existing site.</p>
 					</div>
 				</div>
 
 				<div className="box--img4 box-img">
 					<img src={img3} alt="" className="image3 image-idea" />
 					<div className="box-img__box">
-						<h3>First meeting</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui commodi veritatis repellendus asperiores quisquam! Quibusdam nobis maxime, est at quam voluptate eum provident. Soluta quia optio placeat accusamus impedit fugit!						</p>
+						<h3>Coding process</h3>
+						<p>Now web developer create a responsive web design. It is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
 					</div>
 				</div>
 
 				<div className="box--img5 box-img">
 					<img src={img4} alt="" className="image4 image-idea" />
 					<div className="box-img__box">
-						<h3>First meeting</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui commodi veritatis repellendus asperiores quisquam! Quibusdam nobis maxime, est at quam voluptate eum provident. Soluta quia optio placeat accusamus impedit fugit!						</p>
+						<h3>Second meeting</h3>
+						<p>
+Conducting the project closing meeting will allow the project team and the customer project participants and leadership to gather one last time to ensure that there are no outstanding issues or work. </p>
 					</div>
 				</div>
 
 				<div className="box--img6 box-img">
 					<img src={img5} alt="" className="image5 image-idea" />
 					<div className="box-img__box">
-						<h3>First meeting</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui commodi veritatis repellendus asperiores quisquam! Quibusdam nobis maxime, est at quam voluptate eum provident. Soluta quia optio placeat accusamus impedit fugit!						</p>
+						<h3>Deploy</h3>
+						<p>After the project team tests the product and the product passes each testing phase, the product is ready to go live.</p>
 					</div>
 				</div>
 			</div>
