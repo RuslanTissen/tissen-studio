@@ -1,6 +1,5 @@
 import "./Plan.scss"
 import Button from '@mui/material/Button';
-
 import React from 'react'
 
 function Plan() {
@@ -15,7 +14,7 @@ function Plan() {
 					<div className="price__box--h2">
 						<h1>Standard</h1>
 						<h3><mark>200</mark>$</h3>
-						<Button variant="contained" color="info">Contact</Button>							
+						<Button href='mailto:tissenstudio@gmail.com' variant="contained" color="info">Contact</Button>							
 					</div>
 
 					<div className="price__box--h3">
@@ -33,9 +32,7 @@ function Plan() {
 					<div className="price__box--h2">
 						<h1>Progressive</h1>
 						<h3><mark>300</mark>$</h3>
-						<Button variant="contained" color="info">
-							Contact
-						</Button>							
+						<Button href='mailto:tissenstudio@gmail.com' variant="contained" color="info">Contact</Button>							
 					</div>
 					<div className="price__box--h3">
 						<h3>3 Meetings</h3>
@@ -52,9 +49,7 @@ function Plan() {
 					<div className="price__box--h2">
 						<h1>Clever saving</h1>
 						<h3>Only <mark>30</mark>$/24month</h3>
-						<Button variant="contained" color="info">
-							Contact
-						</Button>							
+						<Button href='mailto:tissenstudio@gmail.com' variant="contained" color="info">Contact</Button>							
 					</div>
 					<div className="price__box--h3">
 						<h3>Standard plan + Support</h3>
@@ -65,9 +60,7 @@ function Plan() {
 					<div className="price__box--h2">
 						<h1>Clever</h1>
 						<h3>Only <mark>40</mark>$/24month</h3>
-						<Button variant="contained" color="info">
-							Contact
-						</Button>							
+						<Button href='mailto:tissenstudio@gmail.com' variant="contained" color="info">Contact</Button>							
 					</div>
 					<div className="price__box--h3">
 						<h3>Progressive plan + Support</h3>
