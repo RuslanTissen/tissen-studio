@@ -15,9 +15,7 @@ function Plan() {
 					<div className="price__box--h2">
 						<h1>Standard</h1>
 						<h3><mark>200</mark>$</h3>
-						<Button variant="contained" color="info">
-							Contact
-						</Button>							
+						<Button variant="contained" color="info">Contact</Button>							
 					</div>
 
 					<div className="price__box--h3">

@@ -1,5 +1,5 @@
 import React from 'react'
-import intr from "../../images/intr.jpg"
+import Button from '@mui/material/Button';
 import "./Introduction.scss"
 
 function Introduction() {
@@ -11,6 +11,7 @@ function Introduction() {
 				<p>Place where dreams come true</p>
 			</div>
 			<div className="introduction__text2">
+				<Button variant="contained" color="info">Contact</Button>
 			</div>
 		</div>
 	)
