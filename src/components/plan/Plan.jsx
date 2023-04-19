@@ -5,7 +5,7 @@ import React from 'react'
 
 function Plan() {
 	return (
-		<div className="plan">
+		<div className="plan" id="plan">
 			<div className="plan_h1--box">
 				<h1>Choose one of our plans</h1>
 				{/* <p></p> */}

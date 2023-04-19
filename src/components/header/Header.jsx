@@ -12,16 +12,16 @@ function Header() {
 			<div className="nav-container">
 				<ul className='ul-first'>
 					<li className="logo"><AnchorLink href="#introduction">TISSEN <IoMdLaptop /> STUDIO</AnchorLink></li>
-					<li className="alq"><AnchorLink href="#templates">STRONG</AnchorLink> </li>
-					<li className="detalles"><AnchorLink href="#idea">RECOVERY</AnchorLink></li>
-					<li className="contacto"><AnchorLink href="#nutrition">NUTRITION</AnchorLink></li>
+					<li className="alq"><AnchorLink href="#idea">PROCESS</AnchorLink> </li>
+					<li className="detalles"><AnchorLink href="#templates">MODEL</AnchorLink></li>
+					<li className="contacto"><AnchorLink href="#plan">PRICING</AnchorLink></li>
 					<li className='personal'><AnchorLink href="#stretching">STRETCHING</AnchorLink></li>
 					<GiHamburgerMenu style={{ fontSize: "1.5em" }} onClick={() => setShow(!show)} />
 				</ul >
 				{show && <ul className='ul-second'>
-					<li className="alq"><AnchorLink href="#templates">STRONG</AnchorLink> </li>
-					<li className="detalles"><AnchorLink href="#idea">DETALLES</AnchorLink></li>
-					<li className="contacto"><AnchorLink href="#nutrition">NUTRITION</AnchorLink></li>
+					<li className="alq"><AnchorLink href="#idea">PROCESS</AnchorLink> </li>
+					<li className="detalles"><AnchorLink href="#templates">MODEL</AnchorLink></li>
+					<li className="contacto"><AnchorLink href="#plan">PRICING</AnchorLink></li>
 					<li className="personal"><AnchorLink href="#stretching">STRETCHING</AnchorLink></li>
 				</ul>}
 			</div>

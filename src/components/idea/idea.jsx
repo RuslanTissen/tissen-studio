@@ -59,7 +59,7 @@ Conducting the project closing meeting will allow the project team and the custo
 					<img src={img5} alt="" className="image5 image-idea" />
 					<div className="box-img__box">
 						<h3>Deploy</h3>
-						<p>After the project team tests the product and the product passes each testing phase, the product is ready to go live.</p>
+						<p>Passing all test and checks project is ready to go live!</p>
 					</div>
 				</div>
 			</div>

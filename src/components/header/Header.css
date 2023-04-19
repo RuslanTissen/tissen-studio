@@ -2,7 +2,7 @@
   width: 100vw;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #373248;
+  background-color: #202020;
   position: fixed;
   top: 0;
   z-index: 100;
@@ -10,7 +10,7 @@
 .nav .nav-container {
   max-width: 1670px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding: 0 20px 0 10px;
 }
 .nav .nav-container ul {
   display: flex;
