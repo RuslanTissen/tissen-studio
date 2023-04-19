@@ -11,7 +11,7 @@ function Introduction() {
 				<p>Place where dreams come true</p>
 			</div>
 			<div className="introduction__text2">
-				<Button href='mailto:tissenstudio@gmail.com' variant="contained" color="info">Contact</Button>
+				<Button href='mailto:tissenstudio@gmail.com' variant="contained" color="primary">Contact</Button>
 			</div>
 		</div>
 	)

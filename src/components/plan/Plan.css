@@ -46,7 +46,7 @@
   background-color: transparent;
   font-size: 3rem;
 }
-.plan .plan__price--box .price__box .price__box--h2 button {
+.plan .plan__price--box .price__box .price__box--h2 a {
   padding: 10px 60px;
 }
 .plan .plan__price--box .price__box .price__box--h3 {

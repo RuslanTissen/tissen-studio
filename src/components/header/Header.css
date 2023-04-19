@@ -39,6 +39,12 @@
 .nav .nav-container ul li a:hover {
   color: rgb(146, 144, 144);
 }
+.nav .nav-container .ul-second {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
 .nav .nav-container svg {
   color: white;
   display: flex;
@@ -53,14 +59,14 @@
   display: none;
 }
 @media (max-width: 900px) {
-  .nav .nav-container .logo {
-    display: flex;
-  }
-  .nav .nav-container .logo svg:first-child {
-    display: inline-block;
-  }
   .nav .nav-container .ul-first {
     justify-content: space-between;
+  }
+  .nav .nav-container .ul-first .logo {
+    display: flex;
+  }
+  .nav .nav-container .ul-first .logo svg:first-child {
+    display: inline-block;
   }
   .nav .nav-container .ul-first li:not(:first-child) {
     display: none;
@@ -70,12 +76,7 @@
     display: inline-block;
   }
 }
-.nav .nav-container .ul-second {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
   .nav .nav-container .ul-second {
     display: none;
   }

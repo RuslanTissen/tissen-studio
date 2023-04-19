@@ -15,14 +15,14 @@ function Header() {
 					<li className="alq"><AnchorLink href="#idea">PROCESS</AnchorLink> </li>
 					<li className="detalles"><AnchorLink href="#templates">MODEL</AnchorLink></li>
 					<li className="contacto"><AnchorLink href="#plan">PRICING</AnchorLink></li>
-					<li className='personal'><AnchorLink href="#stretching">STRETCHING</AnchorLink></li>
+					{/* <li className='personal'><AnchorLink href="#stretching">STRETCHING</AnchorLink></li> */}
 					<GiHamburgerMenu style={{ fontSize: "1.5em" }} onClick={() => setShow(!show)} />
 				</ul >
 				{show && <ul className='ul-second'>
 					<li className="alq"><AnchorLink href="#idea">PROCESS</AnchorLink> </li>
 					<li className="detalles"><AnchorLink href="#templates">MODEL</AnchorLink></li>
 					<li className="contacto"><AnchorLink href="#plan">PRICING</AnchorLink></li>
-					<li className="personal"><AnchorLink href="#stretching">STRETCHING</AnchorLink></li>
+					{/* <li className="personal"><AnchorLink href="#stretching">STRETCHING</AnchorLink></li> */}
 				</ul>}
 			</div>
 		</div>
