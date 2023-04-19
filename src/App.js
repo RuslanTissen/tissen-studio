@@ -20,9 +20,9 @@ function App() {
 
 				<Introduction />
 
-				<Templates />
-
 				<Idea />
+
+				<Templates />
 
 				<Plan />
 
