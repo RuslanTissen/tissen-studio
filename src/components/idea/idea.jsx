@@ -5,6 +5,8 @@ import img2 from "../../images/idea-2.jpg"
 import img3 from "../../images/idea-3.jpg"
 import img4 from "../../images/idea-4.jpg"
 import img5 from "../../images/idea-5.jpg"
+import Button from '@mui/material/Button';
+
 
 function Idea() {
 	return (
@@ -50,8 +52,7 @@ function Idea() {
 					<img src={img4} alt="" className="image4 image-idea" />
 					<div className="box-img__box">
 						<h3>Second meeting</h3>
-						<p>
-Conducting the project closing meeting will allow the project team and the customer project participants and leadership to gather one last time to ensure that there are no outstanding issues or work. </p>
+						<p>Conducting the project closing meeting will allow the project team and the customer project participants and leadership to gather one last time to ensure that there are no outstanding issues or work. </p>
 					</div>
 				</div>
 
@@ -60,6 +61,7 @@ Conducting the project closing meeting will allow the project team and the custo
 					<div className="box-img__box">
 						<h3>Deploy</h3>
 						<p>Passing all test and checks project is ready to go live!</p>
+						<Button href='mailto:tissenstudio@gmail.com' variant="contained" color="primary">Contact</Button>
 					</div>
 				</div>
 			</div>

@@ -28,11 +28,11 @@
 		justify-content: center;
 		h1{
 			color: white;
-			@include adaptive-font(100, 40)
+			@include adaptive-font(96, 40)
 		}
 		p{
 		color: white;
-		@include adaptive-font(80, 40);
+		@include adaptive-font(76, 40);
 		font-weight: 300;
 	}
 }

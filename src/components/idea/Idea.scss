@@ -4,17 +4,17 @@
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 
-	$maxWidth: 1700;
-	@mixin adaptive-font($pcSize, $mobSize){
-	$addSize: $pcSize - $mobSize;
-	$addMobSize: $addSize + $addSize * 0.7;
-	@media (max-width: 900px) {
-	font-size: calc(#{$addSize + px} + #{$addMobSize} * ((100vw 320px) / #{$maxWidth}));
-	}
-	@media (min-width: 900px) {
-	font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw) / #{$maxWidth}));
-	}
-}
+	// $maxWidth: 1700;
+	// @mixin adaptive-font($pcSize, $mobSize){
+	// $addSize: $pcSize - $mobSize;
+	// $addMobSize: $addSize + $addSize * 0.7;
+	// @media (max-width: 900px) {
+	// font-size: calc(#{$addSize + px} + #{$addMobSize} * ((100vw 320px) / #{$maxWidth}));
+	// }
+	// @media (min-width: 900px) {
+	// font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw) / #{$maxWidth}));
+	// }
+// }
 	.idea__text--container{
 		flex: 1 1 100%;
 		padding: 30px 0 30px;
@@ -41,11 +41,22 @@
 			}
 			.box-img__box{
 				padding: 40px 25px;
+				height: 40%;
+				display: flex;
+				flex-direction: column;
 				h3{
 					margin-bottom: 5px;
+					// @include adaptive-font(22, 8)
 				}
 				p{
-					@include adaptive-font(16, 8)
+					// @include adaptive-font(16, 10)
+				}
+				a{
+					// justify-content: baseline;
+					// align-self: baseline;
+					margin: auto 0 0;
+					display: flex;
+					width: 200px;
 				}
 			}
 		}
@@ -64,9 +75,12 @@
 			.text__box--p{
 				height: 40%;
 				padding: 40px 25px;
-				
 				h3{
 					margin-bottom: 5px;
+					// @include adaptive-font(22, 8)
+				}
+				p{
+					// @include adaptive-font(16, 10)
 				}
 			}
 		}

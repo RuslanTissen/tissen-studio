@@ -21,12 +21,12 @@
 }
 @media (max-width: 900px) {
   .introduction .introduction__text1 h1 {
-    font-size: calc(60px + 102 * ((100vw 320px) / 1700));
+    font-size: calc(56px + 95.2 * ((100vw 320px) / 1700));
   }
 }
 @media (min-width: 900px) {
   .introduction .introduction__text1 h1 {
-    font-size: calc(40px + 60 * ((100vw) / 1700));
+    font-size: calc(40px + 56 * ((100vw) / 1700));
   }
 }
 .introduction .introduction__text1 p {
@@ -35,12 +35,12 @@
 }
 @media (max-width: 900px) {
   .introduction .introduction__text1 p {
-    font-size: calc(40px + 68 * ((100vw 320px) / 1700));
+    font-size: calc(36px + 61.2 * ((100vw 320px) / 1700));
   }
 }
 @media (min-width: 900px) {
   .introduction .introduction__text1 p {
-    font-size: calc(40px + 40 * ((100vw) / 1700));
+    font-size: calc(40px + 36 * ((100vw) / 1700));
   }
 }
 .introduction .introduction__text2 {

@@ -21,13 +21,25 @@
 .templates .templates__text--box p {
   font-weight: 300;
 }
-.templates .templates__carousel--box {
+.templates .templates__style--box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.templates .templates__style--box .carousel--box {
   flex: 1 1 100%;
   height: 70%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.templates .templates__carousel--box .carousel-status {
+.templates .templates__style--box .carousel--box p {
+  background-color: black;
+  color: white;
+  padding: 10px 0 10px 20px;
+  text-align: start;
+}
+.templates .templates__style--box .carousel--box .carousel-status {
   display: none;
 }/*# sourceMappingURL=Templates.css.map */

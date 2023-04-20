@@ -19,13 +19,25 @@
 			font-weight: 300;
 		}
 	}
-	.templates__carousel--box {
-		flex: 1 1 100%;
-		height: 70%;
+	.templates__style--box{
 		width: 100%;
-		object-fit: cover;
-		.carousel-status{
-			display: none;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		.carousel--box {
+			flex: 1 1 100%;
+			height: 70%;
+			width: 100%;
+			object-fit: cover;
+			p{
+				background-color: black;
+				color: white;
+				padding: 10px 0 10px 20px;
+				text-align: start;
+			}
+			.carousel-status{
+				display: none;
+			}
 		}
 	}
 }
