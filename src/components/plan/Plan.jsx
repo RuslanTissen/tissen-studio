@@ -5,10 +5,12 @@ import React from 'react'
 function Plan() {
 	return (
 		<div className="plan" id="plan">
-			<div className="plan_h1--box">
+
+			<div className="plan__h1--box1 plan__h1--box">
 				<h1>Choose one of our plans</h1>
 				{/* <p></p> */}
 			</div>
+
 			<div className="plan__price--box">
 				<div className="price1 price__box">
 					<div className="price__box--h2">
@@ -67,6 +69,13 @@ function Plan() {
 					</div>
 				</div>
 			</div>
+
+			<div className="plan__h1--box2 plan__h1--box">
+				<h1>Your requirements are special?</h1>
+				{/* <p></p> */}
+				<Button href='mailto:tissenstudio@gmail.com' variant="contained" color="info">Contact</Button>							
+			</div>
+
 		</div>
 	)
 }

@@ -22,11 +22,11 @@
 	.templates__style--box{
 		width: 100%;
 		display: flex;
-		flex-direction: column;
+		flex-wrap: wrap;
 		gap: 8px;
 		.carousel--box {
 			flex: 1 1 100%;
-			height: 70%;
+			height: 50%;
 			width: 100%;
 			object-fit: cover;
 			p{
@@ -37,6 +37,20 @@
 			}
 			.carousel-status{
 				display: none;
+			}
+		}
+	}
+	@media (min-width:900px) {
+		.templates__style--box{
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px;
+			.carousel--box {
+				flex: 1 1 48%;
+				height: 100%;
+				width: 48%;
+				object-fit: cover;
 			}
 		}
 	}
