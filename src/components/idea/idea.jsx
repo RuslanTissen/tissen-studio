@@ -6,13 +6,22 @@ import img3 from "../../images/idea-3.jpg"
 import img4 from "../../images/idea-4.jpg"
 import img5 from "../../images/idea-5.jpg"
 import Button from '@mui/material/Button';
+import lgs from '../Lgs.js'
+import { useContext } from 'react';
+import { Context } from '../Context';
+
+function Idea(props) {
+	const { lang, } = useContext(Context)
+	console.log(lang)
+	// const check = localStorage.getItem("lang")
+	// console.log(check) 
+	console.log(props)
 
 
-function Idea() {
 	return (
 		<div className='idea' id='idea'>
 			<div className="idea__text--container">
-				<h1>Design and comfort.</h1>
+				<h1>{lgs[lang].design}</h1>
 				<p>Website design is one of the most valuable tools for user experience. A clear and strict navigation structure plus a harmonious design can greatly enhance the usability of your website.</p>
 			</div>
 			<div className="idea__images--container">

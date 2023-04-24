@@ -7,9 +7,15 @@ import Templates from './components/templates/Templates';
 import Plan from './components/plan/Plan';
 // import wa from "./images/WhatsAppButtonGreenMedium.png"
 // import { BsWhatsapp } from "react-icons/bs"
+import lgs from './components/Lgs';
+import {Context}from "./components/Context"
+import {useContext} from "react";
+
 
 function App() {
 	// const about = document.getElementsByClassName('')
+	console.log(lgs)
+	// const [lang, setLang] = useContext(Context)
 
 	return (
 		<div className="app">
