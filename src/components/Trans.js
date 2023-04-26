@@ -1,4 +1,4 @@
-const lgs = {
+const trans = {
 	es: {
 		melody: "Melodia de codigos",
 		design: "Comfort y Diseño.",
@@ -11,4 +11,4 @@ const lgs = {
 	}
 }
 
-export default lgs
+export default trans
