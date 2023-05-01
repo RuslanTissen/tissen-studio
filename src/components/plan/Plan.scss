@@ -6,9 +6,9 @@
 		margin-bottom: 40px;
 		text-align: center;
 		font-size: 1.5rem;
-		background-color: black;
+		background-color: #b8b6b7;
 		h1{
-			color: white;
+			color: black;
 		}
 	}
 	.plan__h1--box2{
@@ -82,7 +82,7 @@
 					box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.16);				}
 			}
 		}
-		@media (min-width:700px) {
+		@media (min-width:900px) {
 			.plan__h1--box {
 				font-size: 3rem;
 			}

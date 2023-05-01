@@ -7,18 +7,28 @@ import Templates from './components/templates/Templates';
 import Plan from './components/plan/Plan';
 // import wa from "./images/WhatsAppButtonGreenMedium.png"
 // import { BsWhatsapp } from "react-icons/bs"
-import lgs from './components/Trans';
-// import {Context}from "./components/Context"
-// import {useContext} from "react";
-
+import trans from './components/Trans';
+import { useState } from 'react';
+import { Context } from "./components/Context"
+import { useContext } from "react";
 
 function App() {
 	// const about = document.getElementsByClassName('')
-	console.log(lgs)
+	console.log(trans)
+	console.log(Context)
+
 	// const [lang, setLang] = useContext(Context)
+
+	// const [x, setX] = useState("es")
+
+
 
 	return (
 		<div className="app">
+
+			{/* <button onClick={(e) => setX("en")}>EN</button>
+			<button onClick={(e) => setX("de")}>DE</button> */}
+
 
 			<Header />
 
