@@ -31,8 +31,12 @@ function Header() {
 				<li className="alq"><AnchorLink href="#idea">{trans[lang].process}</AnchorLink> </li>
 				<li className="detalles"><AnchorLink href="#templates">{trans[lang].model}</AnchorLink></li>
 				<li className="contacto"><AnchorLink href="#plan">{trans[lang].pricing}</AnchorLink></li>
-				{/* <li className="personal"><AnchorLink href="#stretching">STRETCHING</AnchorLink></li> */}
-			</ul>}
+				<li className='sprachen'>
+						<button className="button-esp" value="es" onClick={(e)=>setLang(e.target.value)}>ESP</button>
+						<p>/</p>
+						<button className="button-eng" value="en" onClick={(e)=>setLang(e.target.value)}> ENG</button>
+						{/* <button className="button-ger" value="gr" onClick={(e)=>setLang(e.target.value)}>GER</button> */}
+					</li>			</ul>}
 		</div>
 		</div >
 	)
