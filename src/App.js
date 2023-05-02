@@ -7,21 +7,8 @@ import Templates from './components/templates/Templates';
 import Plan from './components/plan/Plan';
 // import wa from "./images/WhatsAppButtonGreenMedium.png"
 // import { BsWhatsapp } from "react-icons/bs"
-import trans from './components/Trans';
-import { useState } from 'react';
-import { Context } from "./components/Context"
-import { useContext } from "react";
 
 function App() {
-	// const about = document.getElementsByClassName('')
-	console.log(trans)
-	console.log(Context)
-
-	// const [lang, setLang] = useContext(Context)
-
-	// const [x, setX] = useState("es")
-
-
 
 	return (
 		<div className="app">
