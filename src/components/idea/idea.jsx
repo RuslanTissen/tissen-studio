@@ -17,12 +17,11 @@ function Idea(props) {
 		<div className='idea' id='idea'>
 			<div className="idea__text--container">
 				<h1>{trans[lang].designComfort}</h1>
-				{/* <p>Website design is one of the most valuable tools for user experience. A clear and strict navigation structure plus a harmonious design can greatly enhance the usability of your website.</p> */}
 				<p>{trans[lang].design}</p>
 			</div>
 			<div className="idea__images--container">
 				<div className="box--img1 box-img">
-					<div className="text__box--h1"><h1>You have an idea!</h1></div>
+					<div className="text__box--h1"><h1>{trans[lang].idea}</h1></div>
 					<div className="text__box--p">
 						<h3>{trans[lang].stepsTitle}</h3>
 						<p>{trans[lang].steps}</p>

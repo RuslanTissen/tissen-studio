@@ -1,5 +1,5 @@
 import "./Templates.scss"
-import React, { Component } from 'react';
+import React, { Component, useContext } from 'react';
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -19,13 +19,16 @@ import elg4 from "../../images/elg4.jpg"
 import elg5 from "../../images/elg5.jpg"
 import elg6 from "../../images/elg6.jpg"
 import elg7 from "../../images/elg7.jpg"
+import trans from "../Trans"
+import { Context } from "../Context"
 
 function Templates() {
+	const {lang, } = useContext(Context)
 	return (
 		<div className='templates' id="templates">
 			<div className="templates__text--box">
-				<h1>Choose your style.</h1>
-				<p>If standard model is not for you, we help you to find your unique style. Look on this carousel.</p>
+				<h1>{trans[lang].styleTitle}</h1>
+				<p>{trans[lang].style}</p>
 			</div>
 
 			<div className="templates__style--box">
